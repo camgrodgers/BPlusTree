@@ -1,17 +1,11 @@
-- Finish delete, edge cases?? and resubmit
-
-- (DONE, could check again) test on thunder.cise.ufl.edu
-
+- Finish delete, edge cases?
 edge cases:
 Insert:
     - tree is 2 way (ie one val per leaf) causes imbalances
     - problem with nodes being dropped on insert somehow, but still remaining in linked list 
-    - Parent nodes???
+    - Parent nodes?
 
 Delete: 
     - crash if mway is 2
     - make sure next/prev/parent pointers mostly are ok
     - haven't handled all edge cases
-    
-
-
